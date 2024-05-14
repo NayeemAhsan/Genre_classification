@@ -4,7 +4,9 @@ channels:
   - defaults
 dependencies:
   - pandas=1.2.3
+  - numpy=1.19.1
   - pip=20.3.3
   - pyarrow=2.0
   - pip:
+      - protobuf==3.19.1S
       - wandb==0.10.21
